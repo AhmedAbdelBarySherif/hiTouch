@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hom Touch</title>
+    <!--==================== Bootstrap css ====================-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!--==================== font-awesome css ====================-->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!--==================== google fonts css ====================-->
+    <link href="https://fonts.googleapis.com/css?family=Anton|Cinzel+Decorative|Limelight|Mina|Raleway" rel="stylesheet">
+    <!--==================== animate css ====================-->
+    <link rel="stylesheet" href="css/animate.css">
+    <!--========== LightBox Slider Style ==========-->
+    <link rel="stylesheet" href="css/gallery.css">
+    <!--==================== main style css ====================-->
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        #portfolio .mix {
+          display: none;
+        }
+    </style>
+    <style>
+        img{
+            max-width: 100%;
+        }
+        .photo-thumbs img{
+            cursor: pointer
+        }
+        .row{
+        }
+        h2{
+        }
+    </style>
+
+</head>
+<body>
+    <!--********** Start navbar **********-->
+    <nav class="navbar">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">
+                    <span class="back_brand"></span>
+                    <img src="imgs/logo.png" alt="logo">
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a class="link_a colorred"  data-value="home" data-text="Home">Home <span class="sr-only">(current)</span></a></li>
+                    <li><a class="link_a" data-value="services" data-text="Services">Services</a></li>
+                    <li><a class="link_a" data-value="gallery" data-text="Gallery">Gallery</a></li>
+                    <li><a class="link_a" data-value="contact" data-text="Contact Us">Contact Us</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    <!--********** End navbar **********-->
+    
+    <!--********** Start home slider **********-->
+    <section id="home" class="home_slider">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner">
+                
+                <div class="item active">
+                    <div class="overlay_slider">
+                        <div class="carousel-caption">
+                            <h3>
+                                Headline</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                                tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem
+                                ipsum dolor sit amet, consetetur sadipscing elitr.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Item -->
+                
+                <div class="item">
+                    <div class="overlay_slider">
+                        <div class="carousel-caption">
+                            <h3 class="wow fadeInLeftBig" data-wow-duration="2s">Headline</h3>
+                            <p class="wow fadeInRightBig" data-wow-duration="2s">
+                                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                                tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem
+                                ipsum dolor sit amet, consetetur sadipscing elitr.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="item">
+                    <div class="overlay_slider">
+                        <div class="carousel-caption">
+                            <h3 class="wow fadeInLeftBig" data-wow-duration="2s">Headline</h3>
+                            <p class="wow fadeInRightBig" data-wow-duration="2s">
+                                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                                tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem
+                                ipsum dolor sit amet, consetetur sadipscing elitr.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="item">
+                    <div class="overlay_slider">
+                        <div class="carousel-caption">
+                            <h3 class="wow fadeInLeftBig" data-wow-duration="2s">Headline</h3>
+                            <p class="wow fadeInRightBig" data-wow-duration="2s">
+                                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                                tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem
+                                ipsum dolor sit amet, consetetur sadipscing elitr.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="item">
+                    <div class="overlay_slider">
+                        <div class="carousel-caption">
+                            <h3 class="wow fadeInLeftBig" data-wow-duration="2s">Headline</h3>
+                            <p class="wow fadeInRightBig" data-wow-duration="2s">
+                                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                                tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem
+                                ipsum dolor sit amet, consetetur sadipscing elitr.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="item">
+                    <div class="overlay_slider">
+                        <div class="carousel-caption">
+                            <h3 class="wow fadeInLeftBig" data-wow-duration="2s">Headline</h3>
+                            <p class="wow fadeInRightBig" data-wow-duration="2s">
+                                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                                tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. Lorem
+                                ipsum dolor sit amet, consetetur sadipscing elitr.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+            <!-- End Carousel Inner -->
+            <ul class="nav nav-pills nav-justified">
+                <li data-target="#myCarousel" data-slide-to="0" class="active">
+                    <a href="#">
+                        <img src="imgs/mainslide/slide1.jpg" alt="smallslide1">
+                    </a>
+                </li>
+
+                <li data-target="#myCarousel" data-slide-to="1">
+                    <a href="#">
+                        <img src="imgs/mainslide/slide2.jpg" alt="smallslide2">
+                    </a>
+                </li>
+
+                <li data-target="#myCarousel" data-slide-to="2">
+                    <a href="#">
+                        <img src="imgs/mainslide/slide3.jpg" alt="smallslide3">
+                    </a>
+                </li>
+
+                <li data-target="#myCarousel" data-slide-to="3">
+                    <a href="#">
+                        <img src="imgs/mainslide/slide4.jpg" alt="smallslide4">
+                    </a>
+                </li>
+                
+                <li data-target="#myCarousel" data-slide-to="4">
+                    <a href="#">
+                        <img src="imgs/mainslide/slide4.jpg" alt="smallslide5">
+                    </a>
+                </li>
+                
+                <li data-target="#myCarousel" data-slide-to="3">
+                    <a href="#">
+                        <img src="imgs/mainslide/slide3.jpg" alt="smallslide6">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- End Carousel -->
+    </section>
+    <!--********** End home slider **********-->
+    
+    <!--********** Start feats **********-->
+<!--
+    <section class="feats">
+        <div class="container-fluid">
+            <div class="row">
+            
+                <div class="col-md-3 col-xs-12">
+                    
+                    <div class="card-container">
+                        <div class="card">
+                            <div class="side"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/29841/jimmy.jpg" alt="Jimmy Eat World"></div>
+                            <div class="side back">Jimmy Eat World</div>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+                <div class="col-md-3 col-xs-12"></div>
+                
+                <div class="col-md-3 col-xs-12"></div>
+                
+                <div class="col-md-3 col-xs-12"></div>
+            
+            </div>
+        </div>
+    </section>
+-->
+    <!--********** End feats **********-->
+    
+    <!--********** Start services **********-->
+    <section id="services" class="services">
+        <div class="container"><!--Start Container-->
+            <div class="heading text-center">
+                <h2>our services</h2>
+                <p>
+                    Lorem ipsum dolor sit amet magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse 
+                </p>
+            </div>
+            <div class="row"><!--Start row-->
+                
+                <div class="single_service">
+                    <div class="row">
+                        <div class="col-md-6 col-xs-12">
+                            <div class="describe_service">
+                                <h2>service one</h2>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-xs-12">
+                            <img class="img-responsive center-block" src="imgs/services/1.jpg" alt="one">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="single_service">
+                    <div class="row">
+
+                        <div class="col-md-6 col-xs-12">
+                            <img class="img-responsive center-block" src="imgs/services/2.jpg" alt="one">
+                        </div>
+                        
+                        <div class="col-md-6 col-xs-12">
+                            <div class="describe_service">
+                                <h2>service two</h2>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                </p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                <div class="single_service">
+                    <div class="row">
+
+                        <div class="col-md-6 col-xs-12">
+                            <div class="describe_service">
+                                <h2>service three</h2>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="col-md-6 col-xs-12">
+                            <img class="img-responsive center-block" src="imgs/services/3.jpg" alt="one">
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                <div class="single_service">
+                    <div class="row">
+
+                        <div class="col-md-6 col-xs-12">
+                            <img class="img-responsive center-block" src="imgs/services/4.jpg" alt="one">
+                        </div>
+                        
+                        <div class="col-md-6 col-xs-12">
+                            <div class="describe_service">
+                                <h2>service four</h2>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                </p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+            </div><!--End row-->
+        </div><!--End Container-->
+    </section>
+    <!--********** End services **********-->
+    
+    <!--========== Start work_slider ==========-->
+    <section id="gallery" class="work_slider">
+        <div class="container"><!--Start Container-->
+            <div class="work_slider_head text-center">
+                <h2>Our Gallery</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+            </div>
+        </div><!--End Container-->
+        <div class="container-fluid">
+            
+            
+            
+                <div class="wrapper_slider">
+                    <div class="controls">
+                        <button class="filter" data-filter="all">All</button>
+                        <button class="filter" data-filter=".service_one">service one</button>
+                        <button class="filter" data-filter=".service_two">service two</button>
+                        <button class="filter" data-filter=".service_three">service three</button>
+                        <button class="filter" data-filter=".service_four">service four</button>
+                        <button class="filter" data-filter=".service_five">service five</button>
+                    </div>
+                    
+                    <div id="Container" class="container">
+                        <div class="photo-thumbs"><!--Start wrap of gallery-->
+                            <div class="cover-slide mix service_one" data-myorder="1">
+                                <img src="imgs/mainslide/slide1.jpg" alt="slide1">
+                            </div>
+                            <div class="cover-slide mix service_one cover-slide" data-myorder="2">
+                                <img src="imgs/mainslide/slide1.jpg" alt="slide1">
+                            </div>
+                            <div class="cover-slide mix service_two cover-slide" data-myorder="3">
+                                <img src="imgs/mainslide/slide1.jpg" alt="slide1">
+                            </div>
+                            <div class="cover-slide mix service_two cover-slide" data-myorder="4">
+                                <img src="imgs/mainslide/slide1.jpg" alt="slide1">
+                            </div>
+                            <div class="cover-slide mix service_two cover-slide" data-myorder="5">
+                                <img src="imgs/mainslide/slide1.jpg" alt="slide1">
+                            </div>
+                            <div class="cover-slide mix service_three cover-slide" data-myorder="6">
+                                <img src="imgs/mainslide/slide1.jpg" alt="slide1">
+                            </div>
+                            <div class="cover-slide mix service_three cover-slide" data-myorder="7">
+                                <img src="imgs/mainslide/slide1.jpg" alt="slide1">
+                            </div>
+                            <div class="cover-slide mix service_four cover-slide" data-myorder="8">
+                                <img src="imgs/mainslide/slide1.jpg" alt="slide1">
+                            </div>
+                            <div class="cover-slide mix service_four cover-slide" data-myorder="1">
+                                <img src="imgs/mainslide/slide1.jpg" alt="slide1">
+                            </div>
+                            <div class="cover-slide mix service_five cover-slide" data-myorder="2">
+                                <img src="imgs/mainslide/slide1.jpg" alt="slide1">
+                            </div>
+                            <div class="cover-slide mix service_five cover-slide" data-myorder="3">
+                                <img src="imgs/mainslide/slide1.jpg" alt="slide1">
+                            </div>
+                            <div class="cover-slide mix service_five cover-slide" data-myorder="4">
+                                <img src="imgs/mainslide/slide1.jpg" alt="slide1">
+                            </div>
+
+                            <div class="gap"></div>
+                            <div class="gap"></div>
+                        </div>
+                    </div>
+
+            </div><!--End wrap of gallery-->    
+        </div>
+    </section>
+    <!--========== Ebd work_slider ==========-->
+    
+    <!--********** Start contact **********-->
+    <section id="contact" class="contact">
+        <div class="overlay"><!--start overlay-->
+            <div class="container"><!--start container-->
+
+                <div class="row">
+                    
+                    <div class="col-sm-6 col-xs-12">
+                        <div class="contact_info">
+                            <h3>get in touch</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+                            </p>
+                            <ul class="list-unstyled address">
+                                <li>
+                                    <i class="fa fa-home fa-fw"></i>
+                                    <span>25 asmaa fahmy St, cairo, Egypt</span>
+                                </li>
+                                <li>
+                                    <i class="fa fa-phone fa-fw"></i>
+                                    <span>002 000 0000</span>
+                                </li>
+                                <li>
+                                    <i class="fa fa-mobile fa-fw"></i>
+                                    <span>0100 000 0000</span>
+                                </li>
+                                <li>
+                                    <i class="fa fa-fax fa-fw"></i>
+                                    <span>0160 000 0000</span>
+                                </li>
+                            </ul>
+                            
+                            <ul class="list-unstyled list-inline socials">
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-facebook fa-fw"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_blank">
+                                        <i class="fa fa-instagram fa-fw"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_blank">
+                                        <i class="fa fa-twitter fa-fw"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#" target="_blank">
+                                        <i class="fa fa-linkedin fa-fw"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="col-sm-6 col-xs-12">
+                        <div class="contact_form">
+                            <form>
+                                <div class="input-group">
+                                    <input type="text" placeholder="name...">
+                                </div>
+                                <div class="input-group">
+                                    <input type="tel" placeholder="tel...">
+                                    <input type="email" placeholder="email...">
+                                </div>
+                                <div class="input-group">
+                                    <textarea placeholder="message..."></textarea>
+                                </div>
+                                <button type="submit">
+                                    <div class="svg-wrapper">
+                                      <svg height="60" width="320" xmlns="http://www.w3.org/2000/svg">
+                                        <rect class="shape" height="60" width="320" />
+                                      </svg>
+                                       <div class="text">Send</div>
+                                    </div>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+            </div><!--End container-->
+        </div><!--End overlay-->
+    </section>
+    <!--********** End contact **********-->
+    
+    <!--********** Start copyright **********-->
+    <section class="copyright">
+        <div class="container text-center"><!--Start container-->
+            <div class="row"><!--Start row-->
+                
+                <div class="col-xs-12">
+                    <p>
+                        all rights are reserved to high touch company.
+                        <span>designed <a href="#">be4emarketing</a></span>
+                    </p>
+                </div>
+                
+            </div><!--End row-->
+        </div><!--End container-->
+    </section>
+    <!--********** End copyright **********-->
+    
+    <!--********** Start up **********-->
+    <section class="up">
+        <i class="fa fa-arrow-up fa-fw"></i>
+    </section>
+    <!--********** End up **********-->
+    
+    <!--========== jquery js ==========-->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <!--========== bootstrap js ==========-->
+    <script src="js/bootstrap.min.js"></script>
+    <!--========== wow js ==========-->
+    <script src="js/wow.min.js"></script>
+    <!--========== noice scroll js ==========-->
+    <script src="js/jquery.nicescroll.min.js"></script>
+    <!--========== LightBox JS ==========-->
+    <script src="js/gallery.js"></script>
+    <!--========== mix it up Slider js ==========-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mixitup/2.1.11/jquery.mixitup.js"></script>
+    <!--========== custom js ==========-->
+    <script src="js/custom.js"></script>
+    
+    <script>
+        $(document).ready(function () {
+            $(function(){
+              $('#Container').on('mixLoad', function() {
+                console.log('[event-handler] MixItUp Loaded');
+              });
+
+              $('#Container').on('mixStart', function() {
+                console.log('[event-handler] Animation Started')
+              });
+
+              $('#Container').on('mixEnd', function() {
+                console.log('[event-handler] Animation Ended')
+              });
+
+              $('#Container').mixItUp({
+                callbacks: {
+                  onMixLoad: function() {
+                    console.log('[callback] MixItUp Loaded');
+                  },
+                  onMixStart: function() {
+                    console.log('[callback] Animation Started');
+                  },
+                  onMixEnd: function() {
+                    console.log('[callback] Animation Ended');
+                  }
+                }
+              });
+            });
+            //trigger wow
+            new WOW().init();
+        });
+    </script>
+</body>
+</html>
